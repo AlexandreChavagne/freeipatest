@@ -1,0 +1,17 @@
+[ipaserver]
+192.168.43.161
+
+[ipaserver:vars]
+ipaserver_domain=exoomple.com
+ipaserver_realm=EXOOMPLE.COM
+ipaserver_hostname=osboxes.exoomple.com
+ipaserver_setup_dns=no
+ipaserver_auto_forwarders=no
+ipaadmin_password=password
+ipadm_password=password
+
+[ipaclient:vars]
+ipaclient_domain=exoomple.com
+ipaclient_realm=EXOOMPLE.COM
+ipaclient_hostname=osboxes.exoomple.com
+ipaadmin_password=password
